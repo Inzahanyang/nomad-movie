@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/nomad-movie/static/js/main.aaeae1fe.js",
+    "index.html": "/nomad-movie/index.html",
+    "main.aaeae1fe.js.map": "/nomad-movie/static/js/main.aaeae1fe.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.aaeae1fe.js"
+  ]
+}
