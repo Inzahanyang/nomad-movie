@@ -246,6 +246,7 @@ function Home() {
                       </Info>
                     </Box>
                   ))}
+
                 {data2?.results
                   .slice(1)
                   .slice(offset * index, offset * index + offset)
@@ -265,6 +266,7 @@ function Home() {
                       </Info>
                     </Box>
                   ))}
+
                 {data3?.results
                   .slice(1)
                   .slice(offset * index, offset * index + offset)

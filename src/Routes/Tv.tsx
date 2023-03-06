@@ -36,7 +36,7 @@ const Banner = styled.div<{ bgPhoto: string }>`
 
 const Title = styled.h2`
   font-size: 68px;
-  margin-bottom: 20px; ;
+  margin-bottom: 20px;
 `;
 
 const Overview = styled.p`
@@ -248,6 +248,7 @@ export default function Tv() {
                       </Info>
                     </Box>
                   ))}
+
                 {data2?.results
                   .slice(1)
                   .slice(offset * index, offset * index + offset)
@@ -267,6 +268,7 @@ export default function Tv() {
                       </Info>
                     </Box>
                   ))}
+
                 {data3?.results
                   .slice(1)
                   .slice(offset * index, offset * index + offset)
